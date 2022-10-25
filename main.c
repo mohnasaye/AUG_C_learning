@@ -40,10 +40,25 @@
 //    return 0;
 //}
 
+
+
+// creating bmi calculator
 int main(){
-    int sub1,sub2,sub3,hs1,hs2,hs3;
-    printf("Enter Sub1, hs1, sub2, hs2, sub3, hs3 \n");
-    scanf("%d %d %d %d %d %d",&sub1,&hs1,&sub2,&hs2,&sub3,&hs3);
-    printf("Your avg is: %d",(sub1*hs1+sub2*hs2+sub3*hs3)/3);
-    // this is for github
+    int w;
+    float  bmi,h;
+    printf ("Enter your weight: \n ");
+    scanf ("%d", &w);
+    printf ("Enter your height: \n ");
+    scanf ("%f", &h);
+    bmi= w/(h*h);
+    printf ("Your BMI is: %f \n",bmi);
+
+    if (bmi<20){
+        printf ("You have to eat more! \n");}
+    else if (bmi>=20 && bmi<25){
+        printf ("You are perfect! \n");}
+    else if (bmi>=25 && bmi<30){
+        printf ("You have to eat less \n");}
+    else if (bmi>= 30){
+        printf("You are over weighted! \n");}
 }
