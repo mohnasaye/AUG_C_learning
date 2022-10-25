@@ -45,5 +45,5 @@ int main(){
     printf("Enter Sub1, hs1, sub2, hs2, sub3, hs3 \n");
     scanf("%d %d %d %d %d %d",&sub1,&hs1,&sub2,&hs2,&sub3,&hs3);
     printf("Your avg is: %d",(sub1*hs1+sub2*hs2+sub3*hs3)/3);
-
+    // this is for github
 }
