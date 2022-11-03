@@ -52,8 +52,32 @@ build CMakeFiles/untitled.dir/main.c.o: C_COMPILER__untitled_Debug /Users/mohame
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir
 
-build CMakeFiles/untitled.dir/mohnasaye.c.o: C_COMPILER__untitled_Debug /Users/mohamedayesh/CLionProjects/untitled/mohnasaye.c || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles/untitled.dir/mohnasaye.c.o.d
+build CMakeFiles/untitled.dir/question1.c.o: C_COMPILER__untitled_Debug /Users/mohamedayesh/CLionProjects/untitled/question1.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles/untitled.dir/question1.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles/untitled.dir
+
+build CMakeFiles/untitled.dir/question2.c.o: C_COMPILER__untitled_Debug /Users/mohamedayesh/CLionProjects/untitled/question2.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles/untitled.dir/question2.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles/untitled.dir
+
+build CMakeFiles/untitled.dir/question3.c.o: C_COMPILER__untitled_Debug /Users/mohamedayesh/CLionProjects/untitled/question3.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles/untitled.dir/question3.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles/untitled.dir
+
+build CMakeFiles/untitled.dir/question4.c.o: C_COMPILER__untitled_Debug /Users/mohamedayesh/CLionProjects/untitled/question4.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles/untitled.dir/question4.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles/untitled.dir
+
+build CMakeFiles/untitled.dir/question5.c.o: C_COMPILER__untitled_Debug /Users/mohamedayesh/CLionProjects/untitled/question5.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles/untitled.dir/question5.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir
@@ -66,7 +90,7 @@ build CMakeFiles/untitled.dir/mohnasaye.c.o: C_COMPILER__untitled_Debug /Users/m
 #############################################
 # Link the executable untitled
 
-build untitled: C_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/main.c.o CMakeFiles/untitled.dir/mohnasaye.c.o
+build untitled: C_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/main.c.o CMakeFiles/untitled.dir/question1.c.o CMakeFiles/untitled.dir/question2.c.o CMakeFiles/untitled.dir/question3.c.o CMakeFiles/untitled.dir/question4.c.o CMakeFiles/untitled.dir/question5.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/untitled.dir
   POST_BUILD = :

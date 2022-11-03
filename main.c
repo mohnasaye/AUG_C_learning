@@ -4,146 +4,37 @@
 #include <string.h>
 #include <math.h>
 
-//int main() {
-//
-//    int num1;
-//    int num2 ;
-//    printf("Enter First Number: \n");
-//    scanf("%d",&num1);
-//    printf("Enter Second Number: \n");
-//    scanf("%d",&num2);
-//   char operation;
-//    printf("Enter The Operation \n");
-//    printf("1.+ \n");
-//    printf("2.* \n");
-//    printf("3./ \n");
-//    printf("4.- \n");
-//    scanf(" %c",&operation);
-//    int res;
-//    switch (operation) {
-//        case '+':
-//            res = num1+num2;
-//            printf("%d \n",res);
-//            break;
-//        case '*':
-//            res = num1*num2;
-//            printf("%d \n",res);
-//            break;
-//        case '/':
-//            res = num1/num2;
-//            printf("%d \n",res);
-//            break;
-//        case '-':
-//            res = num1-num2;
-//            printf("%d \n",res);
-//            break;
-//        default:
-//            printf("Error! please write a valid operator\n");
-//    }
-//    printf("Thank's you For Using Our Calculator \n");
-//    return 0;
-//}
-//
-
-
-//
-//int main(){
-//    int w;
-//    float  bmi,h;
-//    printf ("Enter your weight: \n ");
-//    scanf ("%d", &w);
-//    printf ("Enter your height: \n ");
-//    scanf ("%f", &h);
-//    bmi= w/(h*h);
-//    printf ("Your BMI is: %f \n",bmi);
-//    if (bmi<20){
-//        printf ("You have to eat more! \n");}
-//    else if (bmi>=20 && bmi<25){
-//        printf ("You are perfect! \n");}
-//    else if (bmi>=25 && bmi<30){
-//        printf ("You have to eat less \n");}
-//    else if (bmi>= 30){
-//        printf("You are over weighted! \n");}
-//}
-//
-
-//int main(){
-//    int x,y;
-//    printf("Enter x \n");
-//    scanf("%d",&x);
-//    printf ("Enter y \n");
-//    scanf("%d",&y);
-//    int operation;
-//    printf("choose the operation: \n");
-//    printf("1.+\n2.-\n3.*\n4./\n");
-//    scanf ("%d", &operation);
-//    int res;
-//    switch (operation) {
-//        case 1 :
-//            res= x+y ;
-//            printf("%d \n",res);
-//            break;
-//
-//        case 2 :
-//            res= x-y;
-//            printf("%d \n",res);
-//            break;
-//
-//        case 3 :
-//            res= x*y;
-//            printf("%d \n",res);
-//            break;
-//
-//        case 4 :
-//            res= x/y;
-//            printf("%d \n",res);
-//            break;
-//    }
-//    printf("Thanks for using Mohammad Moamin calculator");
-//}
-
-
-
-//int main(){
-//    int i = 5;
-//    printf("%d",i%2);
-//    return 0;
-//}
-
-
-
-//int main(){
-//
-//    int count = 0 ;
-//    printf("1 ");
-//
-//    printf("1 ");
-//    while (count<20)
-//    {
-//        printf("2 ");
-//        count = count +1;
-//        printf("5 ");
-//
-//    }
-//}
-
 
 // First question
-//int main(){
-//    int a,b ;
-//    printf("Enter The First Number: \n");
-//    scanf("%d", &a);
-//    printf("Enter The Second Number: \n");
-//    scanf("%d", &b);
-//    printf("The Sum Is: %d",a+b);
-//    printf("The Product Is: %d",a*b);
-//    printf("The Difference Is: %d",a-b);
-//    printf("The Quotient Is: %d",a/b);
-//    printf("The Reminder Is: %d",a%b);
-//}
+// Write a C program that reads two integers from the user then displays
+// their sum, product, difference, quotient and remainder.
+int main(){
+    // definition variables to get input from user
+    int a,b ;
+    // print statement to give the user a hint to input value
+    printf("Enter The First Number: \n");
+    // input the first value
+    scanf("%d", &a);
+    // print statement to give the user a hint to input value
+    printf("Enter The Second Number: \n");
+    // input the second value
+    scanf("%d", &b);
+    // print the sum for a,b
+    printf("The Sum Is: %d \n ",a+b);
+    // print the product for a,b
+    printf("The Product Is: %d \n ",a*b);
+    // print the difference for a,b
+    printf("The Difference Is: %d \n ",a-b);
+    // print the quotient for a,b
+    printf("The Quotient Is: %d \n",a/b);
+    // print the reminder for a,b
+    printf("The Reminder Is: %d \n ",a%b);
+}
 
 
 // Second question
+// Write a C program that displays the numbers 1to 4 on the same line then 5 to
+// 10 in a newline.
 //int main(){
 //    int i = 1;
 //    while(i<5){
@@ -158,63 +49,91 @@
 //}
 
 // Third question
-int main(){
-    // get input from user a, b to compare it later
-    int a, b ;
-    // print statement for user to input first value
-    printf("Enter The First Number \n");
-    // the next line to input the first value
-    scanf("%d", &a);
-    // print statement for user to input second value
-    printf("Enter The Second Number \n");
-    // the next line to input the first value
-    scanf("%d",&b);
-    // start comparing it
-    if(a>b){
-        printf("%d is grater than %d", a,b);
-    } else if(b>a){
-        printf("%d is grater than %d ",b,a);
-    } else if(a ==b  ){
-        printf("%d equal %d",a,b);
-    }
-    else {
-        printf("%d isn't equal %d",a,b);
-    }
-}
+// Write a C program that reads two integers from the user then displays the
+// larger number followed by the words “is larger.” If the numbers are equal,
+// display the message “These numbers are equal.” Use only the single-
+// selection form of the if statement
+//int main(){
+//    // get input from user a, b to compare it later
+//    int a, b ;
+//    // print statement for user to input first value
+//    printf("Enter The First Number \n");
+//    // the next line to input the first value
+//    scanf("%d", &a);
+//    // print statement for user to input second value
+//    printf("Enter The Second Number \n");
+//    // the next line to input the first value
+//    scanf("%d",&b);
+//    // start comparing numbers
+//    // if value a grater than b, the code will print it
+//    if(a>b){
+//        printf("%d is grater than %d", a,b);
+//    } if(b>a){
+//        // if value b grater than a, the code will print it
+//        printf("%d is grater than %d ",b,a);
+//    }  if(a ==b  ){
+//        // if value equal b, the code will print it
+//        printf("%d equal %d",a,b);
+//    }
+//    else {
+//        printf("%d isn't equal %d",a,b);
+//    }
+//}
 
 
 // Question4
 // Write a C program that inputs three different integers from the keyboard,
 // then displays the sum, the average, the product, the smallest and the largest
 // of these numbers. Use only the single-selection form of the if statement
-int main(){
-    // definition the variables a,b,c for inputs
-    float a,b,c ;
-    // print a statement for user to input the first value
-    printf("Enter The First Number: \n");
-    // get the input for first number from user
-    scanf("%f",&a);
-    // print a statement for user to input the second value
-    printf("Enter The Second Number: \n");
-    // get the input for second number from user
-    scanf("%f",&b);
-    // print a statement for user to input the third value
-    printf("Enter The Third Number: \n");
-    // get the input for third number from user
-    scanf("%f",&c);
-    // print sum and avg and product
-    printf("The Sum is: %f \n The Average is: %f \n The Product is: %f \n ",a+b+c,(a+b+c)/3,a*b*c );
-    // now the compare statements to get the large number on the program
-    if(a>b && a>c){
-        printf("A is the better");
-    }if(b>a && b>c){
-        printf("B is the better");
-    }if(c>a && c>b){
-        printf("C is the better");
-    }else{
-        // when the program can't compare will print the next statement
-        printf("Something won't wrong please try again");
-    }
+//int main(){
+//    // definition the variables a,b,c for inputs
+//    float a,b,c ;
+//    // print a statement for user to input the first value
+//    printf("Enter The First Number: \n");
+//    // get the input for first number from user
+//    scanf("%f",&a);
+//    // print a statement for user to input the second value
+//    printf("Enter The Second Number: \n");
+//    // get the input for second number from user
+//    scanf("%f",&b);
+//    // print a statement for user to input the third value
+//    printf("Enter The Third Number: \n");
+//    // get the input for third number from user
+//    scanf("%f",&c);
+//    // print sum and avg and product
+//    printf("The Sum is: %f \n The Average is: %f \n The Product is: %f \n ",a+b+c,(a+b+c)/3,a*b*c );
+//    // now the compare statements to get the large number on the program
+//    if(a>b && a>c){
+//        printf("A is the grater");
+//    }if(b>a && b>c){
+//        printf("B is the grater");
+//    }if(c>a && c>b){
+//        printf("C is the grater");
+//    }else{
+//        // when the program can't compare will print the next statement
+//        printf("Something won't wrong please try again");
+//    }
+//
+//}
 
-}
 
+// Question5
+// For a circle of radius 2, display the diameter, circumference and area. Use
+// the value 3.14 for π. Use the following formulas (r is the radius): diameter =
+// 2r, circumference = 2πr and area = πr2.
+// Perform each of these calculations inside the printf statement(s) and use the
+// conversion specification %f.
+//int main(){
+//    // definition variables
+//    float radius, diameter, circumference, area;
+//    // print statement for user to input radius
+//    printf("Enter radius of circle: \n");
+//    // input radius from user
+//    scanf("%f", &radius);
+//    // print the operations
+//    printf("The Diameter: %f \n  The Circumference: %f \n The Area %f ", 2*radius,2*radius*(22/7),radius*radius*(22/7));
+//
+//}
+
+
+// Thank you Dr.Aseel
